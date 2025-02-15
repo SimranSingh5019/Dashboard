@@ -1,0 +1,103 @@
+body {
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+  
+.container{
+    display : grid;
+    /* grid-template-rows: 1; */
+    grid-template-columns: 1fr 4fr;
+    /* column-gap: 10px; */
+    grid-template-rows: 100vh;
+    /* row-gap:15px; */
+    /* grid-auto-rows:  */
+}
+.rem{
+    /* background-color: aqua */
+    /* border: 2px solid black; */
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+    
+}
+.side-bar{
+    display: grid;
+    grid-template-rows:100px 250px 150px;
+    background-color: rgb(0, 179, 249);
+    
+    padding-left: 20px;
+    /* text-align: left; */
+    
+}
+.side-bar div{
+    /* background-color:rgb(76, 202, 252); */
+
+    color:white;
+    font-size: large;
+}
+.header{
+    
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-template-rows: 0.8fr 0.5fr;
+    background-color:white;
+    align-items: flex-end;
+    padding-left:20px;
+    justify-content: flex-end;
+
+}
+
+.main-content{
+    background-color: rgba(234, 234, 234, 0.8);
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    column-gap: 15px;
+    grid-template-rows: 30px 1fr;
+    padding-left: 20px;
+    padding-top:20px;
+    padding-bottom: 40px;
+}
+.cat-1{
+    display: grid;
+    grid-template-columns: repeat(2,400px);
+    grid-template-rows:repeat(3,1fr);
+    row-gap: 20px;
+    column-gap: 20px;
+    /* padding-left: 20px; */
+    padding-top:10px;
+    /* padding-bottom: 30px; */ 
+    /* background-color: yellow; */
+    /* background-color: rgba(234, 234, 234, 0.971); */
+    /* border:1px solid green; */
+    /* background-color: darkgoldenrod; */
+
+}
+.cat-2{
+    display: grid;
+    padding-right:20px;
+    padding-top: 10px;
+    grid-template-rows: 1.2fr 10px 1.2fr;
+    row-gap: 30px;
+    /* background-color: rgba(234, 234, 234, 0.971); */
+}
+.main-content div{
+    /* background-color:white; */
+}
+.item{
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding:20px;
+}
+.cat-1 .item{
+    /* size:100px; */
+    border-left: 7px solid rgba(255, 208, 0, 0.959);
+}
+button{
+    border-radius: 20px;
+    padding: 10px 30px;
+    background-color: rgb(0, 179, 249);
+    color:white;
+    border:none;
+    margin-right: 20px;
+    
+}
+
