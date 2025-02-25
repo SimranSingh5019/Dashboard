@@ -11,7 +11,7 @@ body {
 }
 .rem{
     display: grid;
-    grid-template-rows: 1fr 4fr;
+    grid-template-rows: 0.5fr 3fr;
     
 }
 .side-bar{
@@ -26,11 +26,12 @@ body {
     color:white;
 
 }
+
 .header{
     
     display: grid;
     grid-template-columns: 3fr 2fr;
-    grid-template-rows: 0.8fr 1fr;
+    grid-template-rows: 0.5fr 0.7fr;
     background-color:white;
     /* align-items: flex-end; */
     padding-left:20px;
@@ -75,14 +76,15 @@ body {
     border-left: 7px solid rgba(255, 208, 0, 0.959);
 }
 button{
-    border-radius: 20px;
+    border-radius: 40px;
     padding: 10px 30px;
     background-color: rgb(0, 179, 249);
     color:white;
     border:none;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    
+    height: 3vh;
+    width: 4vw;
+    font-size: 40px;
+    margin-right:1vw;
 }
 .dashboard img{
     height:10vh;
@@ -98,9 +100,24 @@ img{
 .cat-2 img{
     height: 25px;
     width: 25px;
+    
 }
 .search img{
-    height : 10vw;
-    width:55vw;
+    height : 3vw;
+    width:35vw;
+    padding-top:30px;
 }
 
+.btn{
+    /* background-color: brown; */
+    padding-left:12vw;
+    padding-top: 8vh;
+}
+.info{
+    /* background-color: brown; */
+    margin-top: 2vh;
+    
+}
+.info p{
+    margin-left:3vw;
+}
