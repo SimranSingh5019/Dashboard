@@ -4,12 +4,9 @@ body {
   
 .container{
     display : grid;
-    /* grid-template-rows: 1; */
     grid-template-columns: 0.8fr 4fr;
-    /* column-gap: 10px; */
-    grid-template-rows: 100vh;
-    /* row-gap:15px; */
-    /* grid-auto-rows:  */
+    grid-template-rows: auto;
+    min-height: 100vh;
 }
 .rem{
     /* background-color: green; */
