@@ -1,22 +1,22 @@
 body {
     font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size:80px
 }
   
 .container{
     display : grid;
-    grid-template-columns: 0.8fr 4fr;
+    grid-template-columns:1fr 4fr;
     grid-template-rows:100vh;
-    height: 100vh;
-    width: 100vw;
+
 }
 .rem{
     display: grid;
-    grid-template-rows: 0.6fr 4fr;
+    grid-template-rows: 1fr 4fr;
     
 }
 .side-bar{
     display: grid;
-    grid-template-rows:100px 250px 150px;
+    grid-template-rows:1.2fr 2fr 2fr;
     background-color: hsla(203, 100%, 49%, 0.945);
     
     padding-left: 20px;
@@ -24,17 +24,17 @@ body {
 }
 .side-bar div{
     color:white;
-    font-size: large;
+
 }
 .header{
     
     display: grid;
     grid-template-columns: 3fr 2fr;
-    grid-template-rows: 0.8fr 0.5fr;
+    grid-template-rows: 0.8fr 1fr;
     background-color:white;
-    align-items: flex-end;
+    /* align-items: flex-end; */
     padding-left:20px;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
 
 }
 
@@ -85,14 +85,14 @@ button{
     
 }
 .dashboard img{
-    height: 40px;
-    width: 40px;
-    padding-right: 10px;
+    height:10vh;
+    width:6vw;
+    padding-top: 10px;
    
 }
 img{
-    height: 20px;
-    width: 20px;
+    height:60px;
+    width: 60px;
     padding-right: 10px;
 }
 .cat-2 img{
@@ -100,7 +100,7 @@ img{
     width: 25px;
 }
 .search img{
-    height : 70px;
-    width:600px;
+    height : 10vw;
+    width:55vw;
 }
 
